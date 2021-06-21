@@ -1,0 +1,81 @@
+<!DOCTYPE html>	
+<html>
+	<head>
+		<title>Introduction_BC-Tong</title>
+		<link rel="stylesheet" href="mystyle.css">
+		<style>
+			body{
+				font-size:24px;
+				padding:24px;
+				background-color:white;
+				color:black;
+			}
+			.dark{
+				background-color:black;
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>BC Tong</h1>
+		<br>
+		<div>
+			<ul>
+				<li><h3>簡介:</h3></li>
+					<h4>我是童昞棖，現為中央大學資管系大二，期末考中~~</h4>
+				<li><h3>學歷:中央大學資訊管理系</h3></li>
+				<li><h3>興趣:</h3></li>
+					<ol>
+						<li>
+							<h4>運動
+							<img src="images/volleyball.png" width="30" height="30">
+							<img src="images/bball.jpg" width="30" height="30">
+							<img src="images/bowling.png" width="30" height="30">
+							</h4>
+						</li>
+						<li>
+							<h4>旅遊
+							<img src="images/Taiwan.jpg" width="30" height="30">
+							<img src="images/Japan.jpg" width="30" height="30">
+							<img src="images/China.jpg" width="40" height="30">
+							</h4>
+						</li>
+						<li>
+							<h4>看書
+							<img src="images/book.jpg" width="30" height="30">
+							</h4>
+						</li>
+					</ol>
+				<li>
+					<h3>社團經歷</h3>
+					<table border="3">
+							<tr>
+								<th>時間</th>
+								<th>社團</th>
+								<th>職位</th>
+							</tr>
+						<tr>
+							<td>高中</td>
+							<td>排球社</td>
+							<td>教學長</td>
+						</tr>
+						<tr>
+							<td>大學</td>
+							<td>系排球隊</td>
+							<td>隊長</td>
+						</tr>
+					</table>
+				</li>	
+			</ul>
+		</div>	
+		<div>
+			<button onclick="myFunction()">Change Mode</button>
+		</div>
+		<script> //用於切換模式，兩種模式看style
+			function myFunction(){
+				var element=document.body;
+				element.classList.toggle("dark");
+			}
+		</script>
+	</body>
+</html>
